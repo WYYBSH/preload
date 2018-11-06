@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图片无序预加载</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="box">
+            <img src="http://www.deskcar.com/desktop/fengjing/2011722123730/1.jpg" alt="pic" id="img">
+        <p>
+            <a href="javascript:" class="btn" data-control="prev">prev</a>
+            <a href="javascript:" class="btn" data-control="next">next</a>
+        </p>
+
+    </div>
+    <div class="loading">
+        <p class="progress">0%</p>
+    </div>
+    <script src="js/jquery-2.1.0.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/preload.js"></script>
+</body>
+
+</html>
